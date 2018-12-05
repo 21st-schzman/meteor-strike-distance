@@ -14,6 +14,7 @@ where python
 C:\Python37\python.exe <<< Python 3.7 executable lives here
 C:\Users\Richard\Anaconda\python.exe
 
-This project also requires installation of the haversine library as follows:
+This project also requires installation of the haversine library and requests library as follows:
 
 'pip3 install Haversine'
+'pip3 install requests'
