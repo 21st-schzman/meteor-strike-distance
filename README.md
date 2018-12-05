@@ -6,4 +6,4 @@ Project that determines closest NASA documented meteor strike from a starting lo
 This project requires installation of pipenv and running of code with pipenv:
 
 'pipenv install'
-'pipenv run meteor_strike.py'
+'pipenv run meteor/meteor_strike.py'
