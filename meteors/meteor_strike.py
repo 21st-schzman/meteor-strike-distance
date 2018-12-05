@@ -49,8 +49,9 @@ def get_closest_meteor_strike(local_coordinates = [42.7051216,-71.4850696]):
 def get_distance(strike):
     return strike.get('distance', math.inf)
 
-strike_datum = get_closest_meteor_strike()
+if __name__ == '__main__':
+    strike_datum = get_closest_meteor_strike()
 
-print("Shortest distance meteor strike from current location: {0} kilometers".format(strike_datum['distance']))
-print("Strike Data:\n")
-pprint(strike_datum)
+    print("Shortest distance meteor strike from current location: {0} kilometers".format(strike_datum['distance']))
+    print("Strike Data:\n")
+    pprint(strike_datum)
